@@ -1,0 +1,220 @@
+.mail-icon{
+  width: 20px;
+
+}
+.mail-container{
+  display: flex;
+  align-items: center;
+  margin-left: -50px;
+  height: 50px;
+  
+}
+
+
+
+.icon-button{
+  border: none;
+  border-radius: 2000px;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+
+.header-icon-facebook{
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2px;
+  
+}
+
+.header-icon-twitter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  margin-left: 2px;
+}
+
+.header-icon-linkedin{
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2px;
+}
+
+.header-1{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  
+}
+
+.Button-container{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.quote{
+  height: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: white;
+  border: none;
+  background-color: rgb(1, 1, 61);
+  margin-right: 5px;
+  margin-left: 10px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.quote:hover{
+  background-color: red;
+}
+
+.head{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr ;
+  
+}
+
+.Second-head{
+  background-color :#4988d4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header{
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navigation{
+  font-family: Roboto, Arial;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 300px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.nav-div{
+  color: white;
+}
+
+.nav-div:hover{
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+
+.navigation div{
+  display: inline-block;
+  margin-right: 15px;
+}
+.head-image{
+  margin-top: -2px;
+  margin-bottom: -4px;
+  margin-left: 0;
+}
+.logo-background{
+  position: relative;
+  object-fit: cover;
+}
+.logo{
+  position:absolute;
+  top: 0;
+}
+.logo-image{
+  height: 100px;
+}
+.mail{
+  font-family: Roboto,Arial;
+  font-size: 12px;     
+}
+
+
+@media (max-width:968px){
+  .navigation{
+    font-size: 14px;
+    margin-right: 100px;
+  }
+  .head-image {
+    width: 300px;
+    height: 70px;
+  }
+  .mail-container{
+    padding-left: 150px;
+    
+  }
+  .logo-image{
+    margin-left: 5px;
+  }
+  .Button-container{
+    margin-right: 10px;
+    height: 50px;
+  }
+}
+
+@media (min-width:969px) and (max-width:1080px){
+  .navigation{
+    font-size: 15px;
+    margin-right: 300px;
+  }
+  .head-image{
+    width: 400px;
+    height: 70px;
+  }
+  .mail-container{
+    margin-left: 200px;
+    
+  }
+
+  .logo-image{
+    margin-left: 80px;
+  }
+
+  .Button-container{
+    margin-right: 20px;
+    height: 100px;
+  }
+}
+
+@media (min-width:1081px){
+  .navigation{
+    font-size: 16px;
+    margin-right: 500px;
+  }
+  .head-image{
+    width: 500px;
+    height: 70px;
+  }
+
+  .mail-container{
+    padding-left: 480px;
+    
+  }
+  .logo-image{
+    margin-left: 140px;
+  }
+
+  .Button-container{
+    margin-right: 450px;
+    height: 80px;
+  }
+}

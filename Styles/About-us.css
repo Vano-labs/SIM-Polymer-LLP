@@ -1,0 +1,146 @@
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.head{
+  display: inline-block;
+  margin-left: 50px;
+  color: rgb(236, 15, 15);
+  font-size:18px;
+  letter-spacing: 1px;
+}
+.pin-container{
+  display: inline-block;
+  margin-left: 2px;
+}
+.Branding{
+  font-size: 35px;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom:40px ;
+  color: rgb(78, 78, 78);
+  letter-spacing: 2px;
+ 
+}
+.desc{
+  margin-left: 50px;
+  width: 450px;
+  margin-right: 10px;
+  font-size: 14px;
+  color: rgb(100, 100, 100);
+  font-family: Roboto;
+  word-spacing: 3px;
+  line-height: 20px;
+
+}
+.description{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image{
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+  margin-right:20px ;
+}
+
+.red-line{
+  margin-left: 50px;
+  margin-top: 10px;
+  height: 90px;
+}
+.dots{
+  position: absolute;
+  left: 0;
+  opacity: 0.15;
+  width: 200px;
+  height: 280px;
+  top: 1000px;
+}
+
+.circuit-image{
+  position: absolute;
+  top: 1080px;
+  right: 0;
+  opacity: 0.15;
+}
+
+.info{
+  margin-top: 150px;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+.count-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 1775px;
+}
+.count-stats{
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.count{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.count-background{
+  margin-top: 150px;
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+.count-man{
+  height:350px;
+  margin-left: 58px;
+  margin-right: 50px;
+}
+.icon{
+  margin-top: 110px;
+  margin-bottom: 28px;
+}
+.count-number{
+  font-size:32px ;
+  font-weight: 700;
+  color: rgb(221, 45, 45);
+  margin-bottom: 15px;
+}
+.count-content{
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.line2{
+  height: 55px;
+}
+
+
+.About-us-container{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aligner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
